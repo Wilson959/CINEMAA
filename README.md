@@ -11,7 +11,7 @@ CINEMAA is a website where you can stream different movies and tv shows for free
 
 ## Demo
 
-www.cinemaa.ga
+https://cinemaa.pages.dev
 
 ## Features
 
