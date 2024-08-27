@@ -168,7 +168,7 @@ const Castfun = (castee) => {
 };
 
 const Trailerfunc = function (id) {
-  return `<iframe class="youtubePlayer" src="https://vidsrc.me/embed/tv/${id}" width="100%" height="100%" loading="lazy"  frameborder="0" allowfullscreen></iframe>`;
+  return `<iframe class="youtubePlayer" src="https://vidlink.pro/embed/tv/${id}" width="100%" height="100%" loading="lazy"  frameborder="0" allowfullscreen></iframe>`;
 };
 
 /*  CLCIKED*/
