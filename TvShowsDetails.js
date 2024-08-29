@@ -168,7 +168,7 @@ const Castfun = (castee) => {
 };
 
 const Trailerfunc = function (id) {
-  return `<iframe class="youtubePlayer" src="https://api.fmoviez.online/embed/tv/${id}/1/1" width="100%" height="100%" loading="lazy"  frameborder="0" allowfullscreen></iframe>`;
+  return `<iframe class="youtubePlayer" src="https://api.fmoviez.online/embed/tv/{id}/{season}/{episode}" width="100%" height="100%" loading="lazy"  frameborder="0" allowfullscreen></iframe>`;
 };
 
 /*  CLCIKED*/
