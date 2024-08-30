@@ -52,7 +52,7 @@ const Castfun = (castee) => {
 };
 
 const Trailerfunc = function (id) {
-  return `<iframe class="youtubePlayer" src="https://streambucket.blogspot.com/${id}" width="100%" height="100%" loading="lazy"></iframe>`;
+  return `<iframe class="youtubePlayer" src="https://streambucket.blogspot.com/${id}" width="100%" height="100%" loading="lazy" allowfullscreen="true"></iframe>`;
 };
 
 let url = document.location.href;
