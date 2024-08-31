@@ -28,12 +28,11 @@ const recommendationMoviesDiv = document.querySelector(
 );
 const SimilarMoviesDiv = document.querySelector(".Similar_movies_div");
 const Casdiv = document.querySelector(".Casdiv");
-const preLoader = document.querySelector(".preloader");
 const Trailer_section = document.querySelector(".Trailer_section");
 const reccomendation = document.querySelector(".reccomendation");
 
 window.addEventListener("load", function () {
-#preloader{display:none !important;}
+preLoader.style.display = "none";
 });
 
 const Castfun = (castee) => {
