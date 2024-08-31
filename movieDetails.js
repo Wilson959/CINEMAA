@@ -33,7 +33,7 @@ const Trailer_section = document.querySelector(".Trailer_section");
 const reccomendation = document.querySelector(".reccomendation");
 
 window.addEventListener("load", function () {
-  preLoader.style.display = "disable";
+#preloader{display:none !important;}
 });
 
 const Castfun = (castee) => {
