@@ -134,6 +134,17 @@
     <div class="search_result_div person_movie_con"></div>
 
     <script src="./personaldetail.js"></script>
+    <script type='text/javascript'>
+//<![CDATA[
+
+var images = document.getElementsByTagName('img');
+for (var i = 0; i < images.length; i++) {
+  images[i].src = images[i].src.replace(/(http|https):\/\//, 'https://cdn.statically.io/img/') +
+    '?f=webp';
+};
+
+//]]>
+    </script>
 </body>
 
 </html>
